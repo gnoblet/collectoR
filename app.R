@@ -63,7 +63,7 @@ ui <-
           ),
           wellPanel(
             class = "main-steps-panel",
-            h5(tags$ul(tags$li("Pour le 'Nettoyage', il existe plusieurs pré-requis : le remplissage d'un journal de nettoyage respectant un certain format (disponible ici), l'utilisation d'un outil Kobo (feuilles 'survey' et 'choices') avec ajout des choix de réponses recodés le cas échéant et les données brutes avec la colonne d'indentifiant unique de l'entretien renommée en 'uuid'."), tags$li("L'onglet 'Suivi' permet d'obtenir un journal de suivi de collecte, sous le même format que le journal de nettoyage à partir des données brutes, d'une liste de vérifications et de l'outil Kobo. Il permet aussi d'obtenir les réponses 'autres' et les valeurs extrêmes.")))
+            h5(tags$ul(tags$li("Pour le 'Nettoyage', il existe plusieurs pré-requis : le remplissage d'un journal de nettoyage respectant un certain format (disponible ", a("ici", href = "https://github.com/gnoblet/collectoR/blob/main/docs/BFA_guide_cleaning_log_V2.xlsx"), "), l'utilisation d'un outil Kobo (feuilles 'survey' et 'choices') avec ajout des choix de réponses recodés le cas échéant et les données brutes avec la colonne d'indentifiant unique de l'entretien renommée en 'uuid'."), tags$li("L'onglet 'Suivi' permet d'obtenir un journal de suivi de collecte, sous le même format que le journal de nettoyage à partir des données brutes, d'une liste de vérifications et de l'outil Kobo. Il permet aussi d'obtenir les réponses 'autres' et les valeurs extrêmes.")))
           )
         ),
         # Contact et remerciements
