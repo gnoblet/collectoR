@@ -5,7 +5,7 @@ box::use(
   tidyr[drop_na, separate],
   shiny[...],
   writexl[write_xlsx],
-  impactR[import_xlsx, split_survey, rename_cols, check_cleaning_log, log_names_fr_en, clean_all]
+  impactR[...]
 )
 
 # # Define UI for application that draws a histogram
